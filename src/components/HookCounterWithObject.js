@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 function HookCounterWithObject() {
     const [name, setName] = useState({ firstName: '', lastName: '' })
